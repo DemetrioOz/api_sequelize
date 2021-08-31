@@ -1,11 +1,9 @@
 const express = require("express");
+const routes = require("./routes");
+
 const app = express();
 
-app.use(express.json());
-
-app.get("/teste", (req, res) => {
-  res.json({ message: "Take me home" });
-});
+routes(app);
 
 const port = 3000;
 app.listen(port, () => {
