@@ -7,18 +7,18 @@ module.exports = {
       [
         {
           descr_nivel: "básico",
-          createdAt: new Date(),
-          updatedAt: new Date(),
+          created_at: new Date(),
+          updated_at: new Date(),
         },
         {
           descr_nivel: "intermediário",
-          createdAt: new Date(),
-          updatedAt: new Date(),
+          created_at: new Date(),
+          updated_at: new Date(),
         },
         {
           descr_nivel: "avançado",
-          createdAt: new Date(),
-          updatedAt: new Date(),
+          created_at: new Date(),
+          updated_at: new Date(),
         },
       ],
       {}
